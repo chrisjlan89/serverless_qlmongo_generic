@@ -1,0 +1,25 @@
+{
+  "name": "serverless_generic_mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "boxserver.js",
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "apollo-server-lambda": "^2.16.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.7.0",
+    "graphql-import": "^1.0.2",
+    "graphql-yoga": "^1.18.3",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
